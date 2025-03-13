@@ -8,10 +8,10 @@ import Link from "next/link"
 const societies = [
   {
     id: 1,
-    name: "Computer Society",
+    name: "IEEE Communications Society",
     logo: "/placeholder.svg?height=200&width=200",
     description:
-      "Dedicated to advancing the theory, practice, and application of computer and information processing science and technology.",
+      "To advance communications and networking technology for the betterment of humanity.",
     link: "/societies/computer",
   },
   {
@@ -79,9 +79,8 @@ export default function SocietiesSection() {
                 <p className="text-gray-600 mb-4 text-sm">{society.description}</p>
                 <Link href={society.link}>
                   <Button
-                    variant="outline"
-                    className="border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white"
-                  >
+                    // variant="outline"
+                    className=" text-black-500 ">
                     Learn More
                   </Button>
                 </Link>
@@ -91,7 +90,7 @@ export default function SocietiesSection() {
 
           <div className="text-center mt-12">
             <Link href="/societies">
-              <Button className="bg-blue-500 hover:bg-blue-600">Explore All Societies</Button>
+              <Button className="bg-black text-white  hover:bg-blue-900 text-lg">Explore All Societies</Button>
             </Link>
           </div>
         </div>

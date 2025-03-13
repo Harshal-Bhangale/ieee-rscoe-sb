@@ -19,7 +19,8 @@ export default function HeroSection() {
     <section className="relative h-screen bg-[#001529] overflow-hidden flex items-center">
       <div className="container mx-auto px-4 z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="hero-text">
+          {/* Text & Buttons Section */}
+          <div className="hero-text flex flex-col items-center text-center md:items-start md:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               Your future of better learning starts here.
             </h1>
@@ -28,7 +29,8 @@ export default function HeroSection() {
               <br />
               Become an IEEE Member.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* Centering Buttons in Mobile */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/events">
                 <Button variant="outline" className="border-white text-white hover:bg-white/10 min-w-[150px]">
                   EVENTS
@@ -41,6 +43,8 @@ export default function HeroSection() {
               </Link>
             </div>
           </div>
+
+          {/* Circuit Animation (Hidden in Mobile) */}
           <div className="hidden md:block">
             <CircuitAnimation />
           </div>
@@ -61,4 +65,3 @@ export default function HeroSection() {
     </section>
   )
 }
-  

@@ -62,17 +62,15 @@ export default function EventsSection() {
             <div className="inline-flex rounded-md shadow-sm">
               <button
                 onClick={() => setActiveTab("upcoming")}
-                className={`px-6 py-2 text-sm font-medium rounded-l-md ${
-                  activeTab === "upcoming" ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"
-                }`}
+                className={`px-6 py-2 text-sm font-medium rounded-l-md ${activeTab === "upcoming" ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"
+                  }`}
               >
                 Upcoming Events
               </button>
               <button
                 onClick={() => setActiveTab("past")}
-                className={`px-6 py-2 text-sm font-medium rounded-r-md ${
-                  activeTab === "past" ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"
-                }`}
+                className={`px-6 py-2 text-sm font-medium rounded-r-md ${activeTab === "past" ? "bg-blue-500 text-white" : "bg-white text-gray-700 hover:bg-gray-100"
+                  }`}
               >
                 Past Events
               </button>
@@ -104,7 +102,7 @@ export default function EventsSection() {
 
           <div className="text-center mt-12">
             <Link href="/events">
-              <Button className="bg-blue-500 hover:bg-blue-600">View All Events</Button>
+              <Button className="text-lg bg-[#001529] hover:bg-blue-900 text-white">View All Events</Button>
             </Link>
           </div>
         </div>

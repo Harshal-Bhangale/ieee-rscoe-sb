@@ -10,21 +10,21 @@ const testimonials = [
   {
     id: 1,
     text: "The people in IEEE do a great job, they plan activities, hackathons, codeathons and help everyone in the group without any condition. I love being a member of IEEE, the professionals are always here for help as and when required, organising workshops, lessons etc. I have learned a lot from them. Loved to be a part of such an active club. I'm glad to be a part of the IEEE family. I really learned a lot from the mentors who are always available to guide us.",
-    name: "Krishna Dembla",
+    name: "Harshal Bhangale",
     role: "Student",
     image: "/placeholder.svg?height=100&width=100",
   },
   {
     id: 2,
     text: "Being part of IEEE has been an incredible journey. The exposure to cutting-edge technology and networking opportunities has significantly enhanced my professional growth.",
-    name: "Priya Sharma",
+    name: "Harshda Raut",
     role: "Student Member",
     image: "/placeholder.svg?height=100&width=100",
   },
   {
     id: 3,
     text: "IEEE RSCOE provides an excellent platform for students to develop both technical and leadership skills. The workshops and events are well-organized and informative.",
-    name: "Rahul Patel",
+    name: "Nick Son",
     role: "Student Volunteer",
     image: "/placeholder.svg?height=100&width=100",
   },
@@ -62,10 +62,10 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-2 text-black">
-            Straight from the heart. <span className="text-red-500">❤️</span>
+          <h2 className="text-3xl font-bold mb-2 text-black">
+            Straight from the heart. <br /><span className="text-red-500">❤️</span>
           </h2>
-          <p className="text-xl text-blue-600" >IEEE members and event participants share their perspectives.</p>
+          <p className="text-lg text-gray-600 mb-6 max-w-4xl mx-auto flex-col md:flex-row text-1xl font-bold text-[#034188] text-center" >IEEE members and event participants share their perspectives.</p>
         </motion.div>
 
         <div className="relative max-w-4xl mx-auto">
