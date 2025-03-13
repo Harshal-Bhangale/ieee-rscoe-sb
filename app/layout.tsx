@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className="w-full overflow-x-hidden">
         <Providers>{children}</Providers>
       </body>
     </html>
