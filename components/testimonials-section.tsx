@@ -62,10 +62,10 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-2">
+          <h2 className="text-4xl font-bold mb-2 text-black">
             Straight from the heart. <span className="text-red-500">❤️</span>
           </h2>
-          <p className="text-xl text-blue-600">IEEE members and event participants share their perspectives.</p>
+          <p className="text-xl text-blue-600" >IEEE members and event participants share their perspectives.</p>
         </motion.div>
 
         <div className="relative max-w-4xl mx-auto">
@@ -116,9 +116,8 @@ export default function TestimonialsSection() {
               <button
                 key={index}
                 onClick={() => setCurrentSlide(index)}
-                className={`h-2 w-2 rounded-full transition-all duration-300 ${
-                  index === currentSlide ? "bg-blue-500 w-4" : "bg-gray-300"
-                }`}
+                className={`h-2 w-2 rounded-full transition-all duration-300 ${index === currentSlide ? "bg-blue-500 w-4" : "bg-gray-300"
+                  }`}
               />
             ))}
           </div>

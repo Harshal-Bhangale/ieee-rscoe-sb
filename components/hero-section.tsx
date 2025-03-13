@@ -48,7 +48,7 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <div
+      {/* <div
         ref={scrollRef}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer scroll-indicator"
         onClick={handleScrollClick}
@@ -57,8 +57,8 @@ export default function HeroSection() {
           <span className="text-blue-400 text-xs mb-2 rotate-90">scroll</span>
           <div className="h-16 w-0.5 bg-blue-400"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
-
+  
