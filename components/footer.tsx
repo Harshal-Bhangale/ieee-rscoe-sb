@@ -38,7 +38,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p className="text-gray-300">+91 98765 43210</p>
+            <p className="text-gray-300">+91 12345 67890</p>
             <p className="text-gray-300">ieee.rscoe@gmail.com</p>
             <div className="text-gray-300">
               <p>JSPM's Rajarshi Shahu College of Engineering</p>
@@ -63,7 +63,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                    DSW's Message
+                    {/* DSW's Message */}
                   </a>
                 </li>
                 <li>
@@ -102,7 +102,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>MADE WITH ❤️ USING OPEN SOURCE</p>
+          <p>Made With ❤️ Web Dev Team</p>
         </div>
       </div>
     </footer>
