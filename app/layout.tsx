@@ -1,10 +1,16 @@
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
+// const inter = Inter({ subsets: ["latin"] });
 import "./globals.css";
 import { Providers } from "./providers";
 
-const inter = Inter({ subsets: ["latin"] });
+
+// import { Poppins } from "next/font/google";
+// const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
+
+import { Dosis } from "next/font/google";
+const dosis = Dosis({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 export const metadata: Metadata = {
   title: "IEEE RSCOE SB",
@@ -19,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={dosis.className}>
         <Providers>{children}</Providers>
       </body>
     </html>

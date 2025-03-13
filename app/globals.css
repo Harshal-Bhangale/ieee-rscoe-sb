@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@100..900&display=swap');
 
 @layer base {
   :root {
@@ -57,10 +56,6 @@
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground;
-  }
-
   html,
   body {
     @apply bg-background text-foreground;
@@ -71,6 +66,7 @@
     width: 100%;
   }
 }
+
 
 .circuit-animation {
   animation: pulse 3s infinite alternate;
