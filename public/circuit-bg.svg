@@ -1,0 +1,62 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#gradient)" stroke-width="1.5">
+    <!-- Main tree structure -->
+    <path d="M400,50 L400,750" />
+    <path d="M400,150 L600,150" />
+    <path d="M400,250 L200,250" />
+    <path d="M400,350 L600,350" />
+    <path d="M400,450 L200,450" />
+    <path d="M400,550 L  />
+    <path d="M400,350 L600,350" />
+    <path d="M400,450 L200,450" />
+    <path d="M400,550 L600,550" />
+    <path d="M400,650 L200,650" />
+    
+    <!-- Branch connections -->
+    <path d="M600,150 L600,250" />
+    <path d="M600,250 L700,250" />
+    <path d="M200,250 L200,350" />
+    <path d="M200,350 L100,350" />
+    <path d="M600,350 L600,450" />
+    <path d="M600,450 L700,450" />
+    <path d="M200,450 L200,550" />
+    <path d="M200,550 L100,550" />
+    <path d="M600,550 L600,650" />
+    <path d="M600,650 L700,650" />
+    
+    <!-- Nodes -->
+    <circle cx="400" cy="150" r="5" />
+    <circle cx="400" cy="250" r="5" />
+    <circle cx="400" cy="350" r="5" />
+    <circle cx="400" cy="450" r="5" />
+    <circle cx="400" cy="550" r="5" />
+    <circle cx="400" cy="650" r="5" />
+    
+    <circle cx="600" cy="150" r="5" />
+    <circle cx="600" cy="250" r="5" />
+    <circle cx="600" cy="350" r="5" />
+    <circle cx="600" cy="450" r="5" />
+    <circle cx="600" cy="550" r="5" />
+    <circle cx="600" cy="650" r="5" />
+    
+    <circle cx="200" cy="250" r="5" />
+    <circle cx="200" cy="350" r="5" />
+    <circle cx="200" cy="450" r="5" />
+    <circle cx="200" cy="550" r="5" />
+    <circle cx="200" cy="650" r="5" />
+    
+    <circle cx="700" cy="250" r="5" />
+    <circle cx="700" cy="450" r="5" />
+    <circle cx="700" cy="650" r="5" />
+    
+    <circle cx="100" cy="350" r="5" />
+    <circle cx="100" cy="550" r="5" />
+  </g>
+</svg>
+
